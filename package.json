@@ -1,6 +1,6 @@
 {
   "name": "avconv",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Streamable avconv and avprobe node.js library",
   "main": "index.js",
   "author": "Tao Yuan <taoyuan@dolink.co>",
