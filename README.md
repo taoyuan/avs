@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/taoyuan/avs.png?branch=master)](https://travis-ci.org/taoyuan/avs)
 
-Simply spawns an avconv process with any parameters and *streams* the results to you (meta data + conversion progress). Very small, fast, clean and does only this:
+Streamable avconv and avprobe node.js library. Very small, fast, clean and does only this:
 
 ```javascript
 // Anything you want
