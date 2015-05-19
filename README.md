@@ -1,6 +1,6 @@
 # avconv
 
-[![Build Status](https://travis-ci.org/binarykitchen/avconv.png?branch=master)](https://travis-ci.org/binarykitchen/avconv)
+[![Build Status](https://travis-ci.org/taoyuan/avs.png?branch=master)](https://travis-ci.org/taoyuan/avs)
 
 Simply spawns an avconv process with any parameters and *streams* the results to you (meta data + conversion progress). Very small, fast, clean and does only this:
 

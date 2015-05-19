@@ -1,46 +1,47 @@
 {
-    "name": "avconv",
-    "version": "3.0.1",
-    "description": "Simply spawns an avconv process with any parameters and *streams* the result + conversion progress to you. Very small, fast, clean and does only this.",
-    "main": "avconv.js",
-    "author": "Michael Heuberger <michael.heuberger@binarykitchen.com>",
-    "contributors": [
-        {
-            "name": "Michael Heuberger",
-            "email": "michael.heuberger@binarykitchen.com"
-        },
-        {
-            "name": "Jelle De Loecker",
-            "email": "jelle@kipdola.be"
-        },
-        {
-            "name": "Jan Scheurer",
-            "email": "lj1102@googlemail.com"
-        }
-    ],
-    "keywords": [
-        "avconv",
-        "video conversion",
-        "video encoding"
-    ],
-    "devDependencies": {
-        "nodeunit": "0.9.1"
+  "name": "avconv",
+  "version": "3.0.1",
+  "description": "Streamable avconv and avprobe node.js library",
+  "main": "index.js",
+  "author": "Tao Yuan <taoyuan@dolink.co>",
+  "contributors": [
+    {
+      "name": "Michael Heuberger",
+      "email": "michael.heuberger@binarykitchen.com"
     },
-    "dependencies": {
+    {
+      "name": "Jelle De Loecker",
+      "email": "jelle@kipdola.be"
     },
-    "engines": {
-        "node": ">=0.10.20"
-    },
-    "scripts": {
-        "test": "nodeunit tests/basics.js"
-    },
-    "repository": {
-        "type": "git",
-        "url":  "https://github.com/binarykitchen/avconv.git"
-    },
-    "directories": {
-        "test": "tests"
-    },
-    "license": "MIT",
-    "readmeFilename": "README.md"
+    {
+      "name": "Jan Scheurer",
+      "email": "lj1102@googlemail.com"
+    }
+  ],
+  "keywords": [
+    "avconv",
+    "avprobe",
+    "video conversion",
+    "video encoding"
+  ],
+  "devDependencies": {
+    "nodeunit": "0.9.1"
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">=0.10.20"
+  },
+  "scripts": {
+    "test": "nodeunit tests/basics.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binarykitchen/avconv.git"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
 }
